@@ -1,0 +1,3 @@
+[submodule "PersonalContactManager"]
+	path = PersonalContactManager
+	url = git@github.com:COP4331C-Project-Group/PersonalContactManager.git
