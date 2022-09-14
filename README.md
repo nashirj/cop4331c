@@ -13,3 +13,5 @@ Then, run this command:
 ```
 sudo a2dissite 000-default && sudo a2ensite 000-default && systemctl reload apache2
 ```
+
+You might need to update [firefox settings to clear cache automatically during development](https://support.mozilla.org/en-US/questions/905902)
