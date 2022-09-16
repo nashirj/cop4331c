@@ -14,4 +14,13 @@ Then, run this command:
 sudo a2dissite 000-default && sudo a2ensite 000-default && systemctl reload apache2
 ```
 
+# local development
 You might need to update [firefox settings to clear cache automatically during development](https://support.mozilla.org/en-US/questions/905902)
+
+when you get json decode error, problem is probably due to database connection; to fix have to update .htaccess or hardcode values into Database.php
+
+db credentials for local development
+$this->hostname = "localhost";
+$this->username = "nashir";
+$this->password = "110395";
+$this->dbName = "COP4331";
