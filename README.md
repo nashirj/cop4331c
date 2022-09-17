@@ -24,3 +24,5 @@ $this->hostname = "localhost";
 $this->username = "nashir";
 $this->password = "110395";
 $this->dbName = "COP4331";
+
+Sometimes, firefox aggressively caches; need to do Ctrl + shift + r to get rid of old js files
