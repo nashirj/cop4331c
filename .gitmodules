@@ -1,3 +1,6 @@
 [submodule "PersonalContactManager"]
 	path = PersonalContactManager
 	url = git@github.com:COP4331C-Project-Group/PersonalContactManager.git
+[submodule "food-app"]
+	path = food-app
+	url = git@github.com:COP4331-LargeGroupProject-Fall22/food-app.git
