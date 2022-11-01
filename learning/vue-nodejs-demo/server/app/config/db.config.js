@@ -1,5 +1,7 @@
 module.exports = {
     HOST: "localhost",
     PORT: 27017,
-    DB: "authdb"
+    DB: "authdb",
+    USER: "authApp",
+    PASSWORD: "authApp"
   };
