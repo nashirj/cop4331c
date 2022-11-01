@@ -4,7 +4,7 @@
   
 <script>
 export default {
-    name: 'Counter',
+    name: 'CounterItem',
     data() {
         return {
             count: 0
