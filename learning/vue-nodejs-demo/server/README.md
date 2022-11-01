@@ -1,3 +1,5 @@
+This server code is based on [this tutorial](https://www.bezkoder.com/node-js-mongodb-auth-jwt/), source code [here](https://github.com/bezkoder/node-js-jwt-auth-mongodb)
+
 Create a package.json with
 ```
 npm init
