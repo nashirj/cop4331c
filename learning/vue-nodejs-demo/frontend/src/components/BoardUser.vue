@@ -8,15 +8,16 @@
 
 <script>
 import UserService from "../services/user.service";
+
 export default {
-  name: "HomeView",
+  name: "BoardUser",
   data() {
     return {
       content: "",
     };
   },
   mounted() {
-    UserService.getPublicContent().then(
+    UserService.getUserBoard().then(
       (response) => {
         this.content = response.data;
       },
