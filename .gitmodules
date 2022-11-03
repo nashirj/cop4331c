@@ -4,3 +4,6 @@
 [submodule "food-app"]
 	path = food-app
 	url = git@github.com:COP4331-LargeGroupProject-Fall22/food-app.git
+[submodule "SmartChef"]
+	path = SmartChef
+	url = git@github.com:COP4331-LargeGroupProject-Fall22/SmartChef.git
